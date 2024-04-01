@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="base">
+        <input type="text" placeholder="Плейсхолдер" width="100px">
+        <input type="text" value="Value" width="100px" >      
+        <input type="text" disabled width="100px" >    
+        <input type="password" width="100px" >       
+        <input type="button" value="кнопка через тег input">
+        <button>кнопка через тег button</button>
+
+       <label class="input-like">Плейсхолдер</label>
+       <label class="button-like">Отправить на сервер</label>
+
+
+       <label>
+        <input type="checkbox">
+        Это метка для чекбокса - нажмите на меня
+    </label>
+
+    
+    <label>
+        <input type="checkbox" checked>
+        Я отмечен по умолчанию
+    </label>
+
+    
+    <label>
+        <input type="checkbox" disabled>
+        disabled
+    </label>
+    </div>
+
+    <div class="checkBoxes">
+        <label>Это группа радиокнопок - только одна может быть отмечена</label>
+        <label for="radio1">
+            <input type="radio" id="radio1" name="group1" checked>
+           Это метка для радио
+        </label>
+        
+        <label for="radio2">
+            <input type="radio" id="radio2" name="group1">
+            Это метка для радио
+        </label>
+    </div>
+
+
+    <div class="selecting">
+        <select name="first-choice">
+            <option value="option1">Нью-Йорк</option>
+          </select>
+        
+          <select name="second-choice">
+            <option value="option1">Москва </option>
+            <option value="option2">Киев </option>
+            <option value="option3">Нью-Йорк</option>
+          </select>
+        
+          <select name="third-choice">
+            <option value="option1">Минск </option>
+            <option value="option2">Москва </option>
+            <option value="option3">Киев </option>
+            <option value="option4">Нью-Йорк</option>
+            <option value="option5">Варшава</option>
+          </select>
+          <button>Отправить на сервер</button>
+    </div>
+
+    <div class="file">
+        <label>
+            <input type="file"></label> <button>Отправить на сервер</button>
+    </div>
+
+
+    <div class="legend">
+        <fieldset>
+            <legend>Выберете кнопочку</legend>
+            <input type="radio" id="radio1" name="group2">
+            <input type="radio" id="radio2" name="group2">
+            <input type="radio" id="radio3" name="group2">
+            <input type="text" id="name" name="name" placeholder="Ваше имя">
+
+        
+          </fieldset>
+
+          <fieldset>
+            <legend>Выберете еще кнопочку</legend>
+            <input type="radio" id="radio4" name="group3">
+            <input type="radio" id="radio5" name="group3">
+            <input type="radio" id="radio6" name="group3">
+            <input type="radio" id="radio7" name="group3">
+            <input type="radio" id="radio8" name="group3">
+
+
+        
+          </fieldset>
+    </div>
+
+    <div class="areas">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    
+    <textarea name="" id="" cols="30" rows="10" class="areaNo"></textarea>
+        
+    <textarea name="" id="" cols="30" rows="10" class="areaVert"></textarea>
+        
+    <textarea name="" id="" cols="30" rows="10" class="areaHori"></textarea>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+.base {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+input {
+    margin-bottom: 10px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+.button-like {
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    width: 100px;
+    border: 1px solid #ccc;
+    background-color: #ececec;
+    border-radius: 3px;
+    font-size: 11px;
+
+}
+
+.input-like {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 160px;
+    height: 11px;
+    color: #ccc;
+
+}
+
+.checkBoxes{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: 1px solid black; 
+
+}
+
+.legendm, .areas{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+textarea {
+    resize: both; /* Позволяет изменять размер по горизонтали и вертикали */
+}
+
+.areaVert{
+    resize: vertical; /* Разрешает изменять размер только по вертикали */
+}
+
+.areaHori{
+    resize: horizontal; /* Разрешает изменять размер только по горизонтали */
+}
+
+.areaNo{
+    resize: none;
+}
+
